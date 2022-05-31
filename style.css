@@ -1,0 +1,477 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Lato:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+
+    font-family: 'inter' , sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.row{
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container{
+
+    padding: 80px 0;
+
+}
+ 
+a:hover{
+
+    text-decoration: underline;
+    transition: all 300ms ease;
+    
+}
+
+span{
+
+    color: #f407e1;
+    letter-spacing: 0.025rem;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+
+    color: green;
+}
+
+li{
+
+    list-style-type: none;
+   
+    
+    
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+
+a{
+
+    text-decoration: none;
+    /* position: relative;
+    transition: opacity 300ms ease;
+    */
+
+
+     
+}
+
+.pink{
+
+    color: #f407e1;
+}
+
+.pink__1{
+
+    font-weight: 900;
+}
+
+.black{
+
+    color: #000000;
+}
+
+.black__1{
+
+    font-weight: 900;
+}
+
+nav{
+
+    height:100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.personal__logo{
+
+    color: #000000;
+    font-weight: 700;
+    font-size: 24px; 
+}
+
+
+.nav__links{
+
+    display: flex;
+   
+    
+}
+
+.nav__link{
+    margin-left: 24px;
+    
+}
+
+.nav__link--anchor{
+
+    color: #000000;
+    
+    font-weight: 700;
+}
+
+
+
+.nav__link--anchor-primary{
+
+    background-color: #f407e1;
+    padding: 8px 14px; 
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav__link--anchor-primary:hover{
+
+    background-color: #db2acd;
+    text-decoration: none;
+}
+
+
+
+/* .link__hover-effect:after{
+
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    bottom: -3px;
+    right: 0;
+    transition: all 300ms ease;
+
+}
+
+.link__hover-effect--black:after{
+
+    background-color: #000000;
+}
+
+*/
+
+
+.landing__img-wrapper{
+
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgb(0 0 0 / 30%);
+    margin-bottom: 28px;
+    animation: reman-sheglabo 800ms 200ms backwards;
+
+
+}
+
+@keyframes reman-sheglabo {
+    
+    0%{
+
+        transform: scale(0);
+    }
+    80%{
+
+        transform: scale(1.1);
+    }
+    100%{
+
+        transform: scale(1);
+    }
+
+}
+    
+
+
+.landing__img{
+
+    width: 100%;
+    transform: scale(1.1);
+    
+}
+
+.landing__header{
+
+    font-size:36px; 
+    margin: 24px 0 24px 0 ;
+    animation: fade-up 650ms 600ms backwards ;
+}
+
+@keyframes fade-up {
+    
+    0%{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.landing__info{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.landing__desc{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.landing__para{
+
+    font-size: 16px;
+    max-width: 35rem;
+    text-align: center;
+    line-height: 1.5;
+    animation: reman-para 650ms 600ms backwards ;
+}
+
+@keyframes reman-para {
+    
+    0%{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.landing__img2--wrapper{
+
+    width: 50%;
+    margin-top: 48px;
+    animation: reman-img 800ms 300ms backwards ;
+}
+.landing__img2{
+
+    width:90%;
+   
+}
+
+
+@keyframes reman-img {
+    
+    0%{
+        opacity: 0;
+        transform: translateX(40px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.mohammad__img-wrapper{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgb(0 0 0 / 30%);
+    margin-bottom: 28px;
+    animation: mohammad-totonchy 500ms 300ms backwards;
+
+
+}
+
+.mohammad__img{
+
+    width: 100%;
+ 
+    transform: scale(1.15);
+}
+
+
+@keyframes mohammad-totonchy {
+    
+    0%{
+        opacity: 0;
+        transform: translateX(40px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.mohammad__info{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.moh__header{
+
+
+    margin: 24px 0 24px 0;
+}
+
+.container__1{
+
+    background-color: #f8f8f8;
+    
+}
+
+#mohammad{
+
+    margin-top: 48px;
+}
+
+.moh__clubs{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.moh__club{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.mohammad__desc--para{
+
+    font-size: 16px;
+    max-width: 35rem;
+    text-align: center;
+    line-height: 1.5;
+    animation: mohammad-para 650ms 600ms backwards;
+    margin-bottom: 48px;
+}
+
+@keyframes mohammad-para {
+
+    0%{
+
+        opacity: 0;
+        transform: translateY(50px);
+
+    }
+    
+    100%{
+
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.moh__club--wrapper{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 25px;
+   
+
+    
+}
+
+
+.moh__club-img{
+
+    width: 100%;
+    max-width: 100px;
+    transition: all 300ms ;
+
+    
+}
+
+
+
+.moh__club-name{
+
+    color: #000000;
+    position: absolute;
+    bottom: 0;
+    transform: scale(0);
+    transition: all 500ms ease;
+    font-size: 24px;
+    
+    
+}
+
+
+.moh__club:hover .moh__club-img{
+    filter: brightness(80%);
+    opacity: 0.86;
+    transform: scale(0.9);
+    
+}
+
+.moh__club:hover .moh__club-name{
+    transform: scale(1);
+    opacity: 1;
+    
+}
+
+.lib__flag{
+
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    display: inline-block;
+    animation: animate-libya 600ms infinite ease-in-out;
+}
+
+@keyframes animate-libya {
+    
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(30deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
+.landing__header-cont{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
