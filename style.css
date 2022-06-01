@@ -40,6 +40,7 @@ span{
     color: red;
 }
 
+
 .green{
 
     color: green;
@@ -403,10 +404,29 @@ nav{
     align-items: center;
 
     padding: 25px;
-   
+    animation: barca-logo 500ms 300ms backwards;
 
     
 }
+
+
+@keyframes barca-logo {
+
+    0%{
+
+        opacity: 0;
+        transform: translateY(50px);
+
+    }
+    
+    100%{
+
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 
 
 .moh__club-img{
@@ -453,7 +473,9 @@ nav{
     margin-left: 8px;
     display: inline-block;
     animation: animate-libya 600ms infinite ease-in-out;
+    
 }
+
 
 @keyframes animate-libya {
     
@@ -467,6 +489,7 @@ nav{
         transform: rotate(0);
     }
 }
+
 
 
 .landing__header-cont{
